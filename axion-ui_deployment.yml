@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: axion-ui
-          image: ghcr.io/ranjeet-112/axion-ui:47fe969
+          image: ghcr.io/ranjeet-112/axion-ui:a8e5a9a
           imagePullPolicy: Always
           ports:
             - containerPort: 80
