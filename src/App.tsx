@@ -15,7 +15,7 @@ import { SystemSettings } from './components/pages/SystemSettings';
 import { DashboardView } from './components/pages/DashboardView';
 import { NotFound } from './components/pages/NotFound';
 
-const API_BASE = 'http://10.244.1.23:8000/api/v1/telemetry/query';
+const API_BASE = 'http://localhost:9000';
 
 function App() {
   const location = useLocation();
